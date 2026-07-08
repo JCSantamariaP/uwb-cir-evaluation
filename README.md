@@ -38,15 +38,18 @@ This fetches the files directly from the [Zenodo record](https://doi.org/10.5281
 
 ## Running
 
+Run from the repository root, with `cir_dataset.csv` (and `data/`, if rebuilding) also
+in the root:
+
 ```bash
-python build_cir_dataset.py                  # optional: rebuild cir_dataset.csv from raw data
-python fig1_power_energy_vs_distance.py
-python cross_anchor_consistency.py
-python fig2_cir_envelope.py
-python fig3_channel_fingerprint.py
-python mannwhitney_pooled_test.py
-python table1_anchor_stratified_test.py
-python table2_coverage_classification.py
+python code/build_cir_dataset.py                  # optional: rebuild cir_dataset.csv from raw data
+python code/fig1_power_energy_vs_distance.py
+python code/cross_anchor_consistency.py
+python code/fig2_cir_envelope.py
+python code/fig3_channel_fingerprint.py
+python code/mannwhitney_pooled_test.py
+python code/table1_anchor_stratified_test.py
+python code/table2_coverage_classification.py
 ```
 
 ## Citation
