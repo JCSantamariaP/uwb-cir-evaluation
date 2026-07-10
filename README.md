@@ -35,7 +35,7 @@ This repository contains the code for the paper "**Performance Evaluation of UWB
 ### 1. Environment Setup
 
 ```bash
-git clone [https://github.com/JCSantamariaP/uwb-cir-evaluation.git](https://github.com/JCSantamariaP/uwb-cir-evaluation.git)
+git clone https://github.com/JCSantamariaP/uwb-cir-evaluation.git
 cd uwb-cir-evaluation
 
 python3 -m venv .venv
