@@ -56,12 +56,12 @@ pip install -r requirements.txt
 ### 2. Data Preparation
 
 ```bash
-python3 download_data.py            # downloads cir_dataset.csv and data_raw.zip
+python3 download_data.py            # downloads cir_dataset.csv and data.zip
 ```
 
 This fetches the files directly from the [Zenodo record](https://doi.org/10.5281/zenodo.21099647).
 `build_cir_dataset.py` additionally needs the raw data unzipped into `data/` (from
-`data_raw.zip`); the rest of the scripts only need `cir_dataset.csv` in the repo root.
+`data.zip`); the rest of the scripts only need `cir_dataset.csv` in the repo root.
 
 ### 3. Full Pipeline
 
