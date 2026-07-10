@@ -7,7 +7,7 @@
 This repository contains the code for the paper "**Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis**", submitted to IEEE SENSORS 2026. The paper presents a controlled comparison of the DW1000 and DW3000 UWB transceivers in laboratory and corridor environments, analyzing Channel Impulse Response (CIR) morphology to evaluate whether transceiver-specific differences affect channel signature consistency and localization model transferability.
 
 <p align="center">
-  <img src="fig/fig3_channel_fingerprint.pdf" width="70%">
+  <img src="fig/fig3_channel_fingerprint.png" width="70%">
   <br><i>Fig. 1. Channel morphology fingerprint: Mean Excess Delay vs. RMS Delay Spread for DW1000 and DW3000.</i>
 </p>
 
