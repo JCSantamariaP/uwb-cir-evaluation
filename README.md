@@ -60,8 +60,10 @@ Santamaria-Pedron, J.C., Berkvens, R., Reaño, C., Perez-Solano, J.J., Torres-So
 IEEE SENSORS 2026.
 
 Dataset: https://doi.org/10.5281/zenodo.21099647
+Code (this repository): <add DOI after first GitHub Release>
 ```
 
 ## License
 
-MIT — see `LICENSE`.
+Code: MIT — see `LICENSE`. The dataset (Zenodo) has its own license (CC-BY 4.0),
+specified in that record.
