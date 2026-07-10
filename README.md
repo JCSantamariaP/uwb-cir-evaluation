@@ -1,4 +1,4 @@
-# Reproducible Package for 'Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis'
+# UWB DW1000 vs DW3000 — CIR and Coverage Analysis
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21099647.svg)](https://doi.org/10.5281/zenodo.21099647)
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)
@@ -8,7 +8,7 @@ This repository contains the code for the paper "**Performance Evaluation of UWB
 
 <p align="center">
   <img src="fig/fig3_channel_fingerprint.png" width="70%">
-  <br><i>Fig. 1. Channel morphology fingerprint: Mean Excess Delay vs. RMS Delay Spread for DW1000 and DW3000.</i>
+  <br><i>Fig. 3. Channel morphology fingerprint: Mean Excess Delay vs. RMS Delay Spread for DW1000 and DW3000.</i>
 </p>
 
 ---
