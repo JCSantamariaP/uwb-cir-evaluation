@@ -41,3 +41,43 @@ cd uwb-cir-evaluation
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+### 2. Data Preparation
+
+```bash
+python3 download_data.py            # downloads cir_dataset.csv and data.zip
+```
+
+This fetches the dataset from the [Zenodo record](https://doi.org/10.5281/zenodo.21099647).
+`build_cir_dataset.py` additionally needs the raw data unzipped into `data/` (from
+`data.zip`); the rest of the scripts only need `cir_dataset.csv` in the repo root.
+
+### 3. Full Pipeline
+
+```bash
+python3 code/build_cir_dataset.py                  # optional: rebuild cir_dataset.csv
+python3 code/fig1_power_energy_vs_distance.py
+python3 code/cross_anchor_consistency.py
+python3 code/fig2_cir_envelope.py
+python3 code/fig3_channel_fingerprint.py
+python3 code/mannwhitney_pooled_test.py
+python3 code/table1_anchor_stratified_test.py
+python3 code/table2_coverage_classification.py
+```
+
+---
+
+## 📝 Citation
+
+Original Paper:
+> J.C. Santamaria-Pedron, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis," submitted to IEEE SENSORS 2026.
+
+Dataset (includes this code):
+> J.C. Santamaria-Pedron, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Reproducible package for 'Performance evaluation of UWB in indoor environments: CIR and coverage analysis'," Jul. 2026. DOI: 10.5281/zenodo.21099647.
+
+---
+
+## 📄 License
+
+Code: this project is licensed under the [MIT License](LICENSE). The dataset (Zenodo) has its own license (CC-BY 4.0), specified in that record.
