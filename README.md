@@ -71,10 +71,10 @@ python3 code/table2_coverage_classification.py
 ## 📝 Citation
 
 Original Paper:
-> J.C. Santamaria-Pedron, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis," submitted to IEEE SENSORS 2026.
+> J.C. Santamaria-Pedrón, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis," submitted to IEEE SENSORS 2026.
 
 Dataset (includes this code):
-> J.C. Santamaria-Pedron, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Reproducible package for 'Performance evaluation of UWB in indoor environments: CIR and coverage analysis'," Jul. 2026. DOI: 10.5281/zenodo.21099647.
+> J.C. Santamaria-Pedrón, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Reproducible package for 'Performance evaluation of UWB in indoor environments: CIR and coverage analysis'," Jul. 2026. DOI: 10.5281/zenodo.21099647.
 
 ---
 
