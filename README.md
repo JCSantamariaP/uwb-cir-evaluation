@@ -1,4 +1,4 @@
-# UWB DW1000 vs DW3000 — CIR and Coverage Analysis
+# Code for 'Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis'
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21099647.svg)](https://doi.org/10.5281/zenodo.21099647)
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)
