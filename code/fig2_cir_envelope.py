@@ -43,6 +43,8 @@ LABELS = {"dw1000": "DW1000", "dw3000": "DW3000"}
 LSTYLES = {"lab": "-", "corridor": "--"}
 
 
+# === HELPERS ===
+
 def align_envelope(amplitude, fp_ind):
     fp_bins = int(fp_ind / 64.0)
     start = fp_bins - WINDOW_PRE
@@ -72,6 +74,8 @@ def compute_average_envelope(sub_df):
     return average / np.nanmax(average), len(envelopes)
 
 
+# === LOAD DATA ===
+
 df = pd.read_csv("cir_dataset.csv", usecols=[
     "chipset", "carpeta", "fp_ind", "cir_amplitude",
     "is_valid", "is_full_length",
@@ -86,6 +90,8 @@ val = df[
     df["mean_excess_delay_ns"].notna() &
     df["rms_delay_spread_ns"].notna()
 ]
+
+# === PLOT ===
 
 t_axis_ns = np.arange(-WINDOW_PRE, WINDOW_POST) * TS_NS
 fig, ax = plt.subplots(figsize=(5.0, 3.6))
