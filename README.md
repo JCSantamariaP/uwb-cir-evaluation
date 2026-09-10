@@ -4,7 +4,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the code for the paper "**Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis**", submitted to IEEE SENSORS 2026. The paper presents a controlled comparison of the DW1000 and DW3000 UWB transceivers in laboratory and corridor environments, analyzing Channel Impulse Response (CIR) morphology to evaluate whether transceiver-specific differences affect channel signature consistency and localization model transferability.
+This repository contains the code for the paper "**Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis**", accepted at IEEE SENSORS 2026. The paper presents a controlled comparison of the DW1000 and DW3000 UWB transceivers in laboratory and corridor environments, analyzing Channel Impulse Response (CIR) morphology to evaluate whether transceiver-specific differences affect channel signature consistency and localization model transferability.
 
 <p align="center">
   <img src="fig/fig3_channel_fingerprint.png" width="70%">
@@ -76,7 +76,7 @@ python3 code/table2_coverage_classification.py
 ## 📝 Citation
 
 Original Paper:
-> J.C. Santamaria-Pedrón, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis," submitted to IEEE SENSORS 2026.
+> J.C. Santamaria-Pedrón, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Performance Evaluation of UWB in Indoor Environments: CIR and Coverage Analysis," to appear in Proc. IEEE SENSORS 2026.
 
 Dataset (includes this code):
 > J.C. Santamaria-Pedrón, R. Berkvens, C. Reaño, J.J. Perez-Solano, J. Torres-Sospedra, "Reproducible package for 'Performance evaluation of UWB in indoor environments: CIR and coverage analysis'," Jul. 2026. DOI: 10.5281/zenodo.21099647.
