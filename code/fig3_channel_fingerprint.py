@@ -84,5 +84,7 @@ ax.legend(loc="lower right", framealpha=0.9, fontsize=12,
 sns.despine(ax=ax)
 fig.tight_layout(pad=1.5)
 fig.savefig(OUT / "fig3_channel_fingerprint.pdf", bbox_inches="tight")
+fig.savefig(OUT / "fig3_channel_fingerprint.png", dpi=150, bbox_inches="tight")
 plt.close(fig)
 print("fig/fig3_channel_fingerprint.pdf")
+print("fig/fig3_channel_fingerprint.png")
