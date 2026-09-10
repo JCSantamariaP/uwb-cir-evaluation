@@ -47,6 +47,8 @@ GROUP_LABELS = {
     ("dw3000", "lab"): "DW3000 - Lab", ("dw3000", "corridor"): "DW3000 - Corridor",
 }
 
+# === LOAD DATA ===
+
 df = pd.read_csv("cir_dataset.csv", usecols=[
     "chipset", "carpeta", "mean_excess_delay_ns", "rms_delay_spread_ns",
     "is_valid", "is_full_length",
@@ -57,6 +59,8 @@ val = df[
     (df["is_valid"] == True) &
     (df["is_full_length"] == True)
 ].dropna(subset=["mean_excess_delay_ns", "rms_delay_spread_ns"])
+
+# === PLOT ===
 
 fig, ax = plt.subplots(figsize=(5.0, 4.2))
 groups = [("dw1000", "lab"), ("dw1000", "corridor"),
