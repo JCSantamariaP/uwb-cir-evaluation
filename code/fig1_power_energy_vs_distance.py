@@ -52,6 +52,8 @@ metrics = [
     ("energy_ratio_fp", "Energy Ratio (FP/Total)", "fig1b_energyratio_vs_dist"),
 ]
 
+# === PLOT ===
+
 for col, label, fname in metrics:
     fig, ax = plt.subplots(figsize=(5.0, 3.6))
 
@@ -84,7 +86,9 @@ for col, label, fname in metrics:
     plt.close(fig)
     print(f"fig/{fname}.pdf")
 
-# --- Diagnostic: temperature by distance (rules out thermal drift as cause of the DW3000 pattern) ---
+# === DIAGNOSTIC: TEMPERATURE BY DISTANCE ===
+# rules out thermal drift as the cause of the DW3000 non-monotonic pattern
+
 print("\nTemperature (°C) by distance and chipset — calibration_anc0")
 print(f"{'Dist (m)':>10} | {'DW1000':>10} | {'DW3000':>10}")
 for d in distances:
